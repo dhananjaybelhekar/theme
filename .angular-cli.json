@@ -19,9 +19,28 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../src/assets/bootstrap/dist/css/bootstrap.min.css",
+        "../plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css",
+        "../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css",
+        "../src/assets/css/animate.css",
+        "../src/assets/css/colors/blue.css",
+        "../src/assets/css/spinners.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../plugins/bower_components/jquery/dist/jquery.min.js",
+        "../src/assets/bootstrap/dist/js/tether.min.js",
+        "../src/assets/bootstrap/dist/js/bootstrap.min.js",
+        "../plugins/bower_components/bootstrap-extension/js/bootstrap-extension.min.js",
+        "../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.js",
+        "../plugins/bower_components/footable/js/footable.all.min.js",
+        "../plugins/bower_components/bootstrap-select/bootstrap-select.min.js",
+        "../plugins/bower_components/styleswitcher/jQuery.style.switcher.js",
+        "../src/assets/js/jquery.slimscroll.js",
+        "../src/assets/js/waves.js",
+        "../src/assets/js/custom.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
