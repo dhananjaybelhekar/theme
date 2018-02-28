@@ -24,8 +24,9 @@
         "../plugins/bower_components/bootstrap-extension/css/bootstrap-extension.css",
         "../plugins/bower_components/sidebar-nav/dist/sidebar-nav.min.css",
         "../src/assets/css/animate.css",
-        "../src/assets/css/colors/blue.css",
         "../src/assets/css/spinners.css",
+        "../src/assets/css/style.css",
+        "../src/assets/css/colors/blue.css",
         "../node_modules/font-awesome/css/font-awesome.min.css"
       ],
       "scripts": [

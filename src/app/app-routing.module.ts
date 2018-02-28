@@ -6,7 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
     { path: '',
-        redirectTo: '/pages',
+        redirectTo: '/pages/show',
         pathMatch: 'full'
   }, 
     { path: 'dashboard', loadChildren: './dashboard/dashboard.module#DashboardModule'},
